@@ -1,0 +1,10 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://disqus.com/disqus-internals" elementFormDefault="qualified">
+<!--  dsq:id  -->
+<xs:attribute name="id">
+<xs:simpleType>
+<xs:restriction base="xs:string">
+<xs:maxLength value="32"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:attribute>
+</xs:schema>
